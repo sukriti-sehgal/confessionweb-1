@@ -20,7 +20,7 @@ $sql="UPDATE signup SET facebook = '$facebook', linkedin = '$linkedin', email = 
 
 $result=$conn->query($sql);
 
-header("Location:profile.php");
+header("Location:profile.php?id="$result);
 
 
 

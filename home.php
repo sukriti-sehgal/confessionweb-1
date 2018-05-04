@@ -433,7 +433,7 @@ if ($result->num_rows > 0) {
 <div style="background-color: white;" class="card mt-5">
 	<div class="card-header">
 		
-		<b><span style="font-size: 20px;"><?php echo $row["name"]; ?></span></b>
+		<b><span style="font-size: 20px;"><a href="profile.php?id=<?php echo $row['id'];?>"><?php echo $row["name"]; ?></a></span></b>
                 <span class="icon fa fa-stack fa-md">
     <i class="icon fa fa-certificate fa-stack-2x"></i>
     <i class="icon fa fa-check fa-stack-1x fa-inverse"></i>

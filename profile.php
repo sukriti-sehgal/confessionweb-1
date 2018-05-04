@@ -161,7 +161,7 @@ button {
     <div class="form-group row has-success">
       <label for="inputHorizontalSuccess" class="col-sm-2 col-form-label">Bio</label>
       <div class="col-sm-8">
-        <textarea style="resize: none;" type="text" name="bio" class="form-control form-control-success" id="inputHorizontalSuccess" placeholder="Linkedin Profile Link" value="<?php $row['bio'] ?>" required></textarea>
+        <textarea style="resize: none;" type="text" name="bio" class="form-control form-control-success" id="inputHorizontalSuccess" placeholder="Write about yourself!" value="<?php $row['bio'] ?>" required></textarea>
       </div>
     </div><br>
 
